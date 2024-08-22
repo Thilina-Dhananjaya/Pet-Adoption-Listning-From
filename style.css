@@ -1,0 +1,50 @@
+html,body{
+
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.hero{
+    background-color: #8000a7;
+    color: rgb(255, 255, 255);
+    padding: 50px 30px;
+    text-align: center;
+}
+
+.hero::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background:linear-gradient(to left,rgb(133, 52, 158),rgb(136, 1, 136));
+}
+.hero::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background:linear-gradient(to right,rgb(195, 0, 255),rgb(136, 1, 136));
+}
+
+
+
+
+.hero h1 { 
+    font-weight: normal;
+    font-size: 6rem;
+    margin: 0;
+}
+
+.hero h2{
+    font-weight: normal;
+    font-size:1.7rem;
+    margin: 0;
+}
