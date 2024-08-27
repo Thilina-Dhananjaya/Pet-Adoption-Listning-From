@@ -74,6 +74,8 @@ body{
     background-color: white;
     border-radius: 20px;
     overflow: hidden;
+    margin-bottom: 10px;
+    
 }
 
 .animal-card-photo{
@@ -86,8 +88,8 @@ body{
 .animal-card-photo img{
     display: block;
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: 105%;
+    object-fit: over;
     transition: transform .3s ease-in-out;
 }
 
