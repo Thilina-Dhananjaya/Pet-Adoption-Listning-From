@@ -63,6 +63,13 @@ body{
     margin: 4px;
 }
 
+.filter-nav .active{
+    background-color: #300458;
+    color: #fff;
+}
+
+
+
 .animals{
     max-width: 700px;
     margin: 0 auto;
